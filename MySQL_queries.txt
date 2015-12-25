@@ -1,0 +1,3 @@
+create database entity_table;
+create table entity_table(id BIGINT, fieldName VARCHAR(100), fieldValue VARCHAR(100), insertTime BIGINT);
+insert into entity_table(id, fieldName, fieldValue, insertTime) values('1','name','Alice','1000000000');
